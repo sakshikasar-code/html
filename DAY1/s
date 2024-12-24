@@ -1,0 +1,6 @@
+body{
+    p.dotted {border-style: dotted;}
+    p.dashed {border-style: dashed;}
+    p.solid {border-style: solid;}
+</style>
+}

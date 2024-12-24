@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  
+  background: linear-gradient(to top right , rgba(0, 0, 0, 0.8) ,  rgba(0, 0, 0, 0.7) ) , url("https://cdn.moviefone.com/wp-content/uploads/2022/04/best-netflix-original-movies.jpg?q=80");
+
+ 
+}
+.container{
+    
+  
+}
+
+.new-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+img {
+    height: 34px;
+    width: 110px;
+    margin-left: 20px;
+}
+
+.sign {
+    margin-left: auto;
+    margin-top: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.english, .signin {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 5px 10px;
+    background-color: rgb(221, 95, 95);
+    color: white;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.para1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 47px;
+    color: white;
+}
+
+.para2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+.para3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 30px;
+    color: white;
+}
+
+.mail {
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+  
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.button-start {
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: rgb(221, 95, 95);
+    color: white;
+    border: none;
+    
+}
